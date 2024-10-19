@@ -53,7 +53,7 @@ const handleSubmit = async (e) => {
         <input type="text" placeholder='email' 
         className='border p-3 rounded-lg' id='email' onChange=
         {handleChange}/>
-        <input type="text" placeholder='password' 
+        <input type="password" placeholder='password' 
         className='border p-3 rounded-lg' id='password' onChange=
         {handleChange}/>
         <button disabled={loading} className='bg-slate-700 text-white p-3 
